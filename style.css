@@ -1,3 +1,58 @@
 nav{
     background-color: blue;
 }
+.navbar a{
+    font-family : Figtree variablefont wght,sans-serif ;
+    color: #caf4e0;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color:white;
+}
+
+.custom-btn {
+    background-color: #C0E8D5;
+    color: blue;
+    width: 150px;
+    height: 60px;
+    box-shadow: 6px 6px #1c1279;
+    transition: all 0.2s;
+    padding-top: 16px;
+    padding-bottom: 17px;
+  }
+  .custom-btn:hover {
+    box-shadow: 0px 0px #1c1279; /* Change the values to whatever you prefer */
+    transform: translate(6px, 6px); /* Move the button to the shadow position on hover */
+  }
+  .white-space{
+    background-color: white;
+    height: 20px;
+  }
+  .heading{
+    line-height: 60px;
+  }
+  .paragraph{
+    line-height: 40px;
+  }
+  .section-with-background {
+    background-image: url("./Clone/slider-bg.png"); /* Replace "path/to/your/image.jpg" with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;  
+  }
+   
+.text-div {
+    position: absolute; /* Set the text-div to absolute position */
+    top: 45%; /* Adjust the value to vertically center the text-div */
+    left: 50%; /* Adjust the value to horizontally center the text-div */
+    transform: translate(-110%, -55%); /* Center the text-div precisely */
+    text-align: left; /* Center the text inside the text-div */
+    color: white; /* Set text color to make it visible on the background */
+  }
+  .click-link{
+    color: #caf4e0;
+}
+.click-link:hover{
+    color: white;
+}
